@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--
+        IMPORTANT
+        We use a MaterialComponents theme (not Material3) to ensure classic Material theme
+        attributes like ?attr/colorBackground exist across all API levels and resource merges.
+    -->
+    <style name="Base.Theme.WYCrimeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Material-inspired palette (Light) -->
+        <item name="colorPrimary">@color/wy_primary</item>
+        <item name="colorPrimaryVariant">@color/wy_primary_variant</item>
+        <item name="colorOnPrimary">@color/wy_on_primary</item>
+
+        <item name="colorSecondary">@color/wy_secondary</item>
+        <item name="colorSecondaryVariant">@color/wy_secondary_variant</item>
+        <item name="colorOnSecondary">@color/wy_on_secondary</item>
+
+        <!-- Use the framework background attribute for broad compatibility -->
+        <item name="android:colorBackground">@color/wy_background</item>
+        <item name="colorOnBackground">@color/wy_on_background</item>
+
+        <item name="colorSurface">@color/wy_surface</item>
+        <item name="colorOnSurface">@color/wy_on_surface</item>
+
+        <item name="colorError">@color/wy_error</item>
+        <item name="colorOnError">@color/wy_on_error</item>
+
+        <!-- Global widget styles -->
+        <item name="materialButtonStyle">@style/Widget.WYCrimeApp.Button</item>
+        <item name="toolbarStyle">@style/Widget.WYCrimeApp.Toolbar</item>
+
+        <!-- Smooth transitions / modern feel -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+
+    <style name="Theme.WYCrimeApp" parent="Base.Theme.WYCrimeApp" />
+</resources>

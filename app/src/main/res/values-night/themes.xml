@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Dark). -->
+    <style name="Base.Theme.WYCrimeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Material-inspired palette (Dark) -->
+        <item name="colorPrimary">@color/wy_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/wy_primary_variant_dark</item>
+        <item name="colorOnPrimary">@color/wy_on_primary_dark</item>
+
+        <item name="colorSecondary">@color/wy_secondary_dark</item>
+        <item name="colorSecondaryVariant">@color/wy_secondary_variant_dark</item>
+        <item name="colorOnSecondary">@color/wy_on_secondary_dark</item>
+
+        <!-- Use the framework background attribute for broad compatibility -->
+        <item name="android:colorBackground">@color/wy_background_dark</item>
+        <item name="colorOnBackground">@color/wy_on_background_dark</item>
+
+        <item name="colorSurface">@color/wy_surface_dark</item>
+        <item name="colorOnSurface">@color/wy_on_surface_dark</item>
+
+        <item name="colorError">@color/wy_error_dark</item>
+        <item name="colorOnError">@color/wy_on_error_dark</item>
+
+        <!-- Global widget styles -->
+        <item name="materialButtonStyle">@style/Widget.WYCrimeApp.Button</item>
+        <item name="toolbarStyle">@style/Widget.WYCrimeApp.Toolbar</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+</resources>

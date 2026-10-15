@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Material-inspired smooth palette (Light)
+      Note: Colors are referenced via Theme attributes in themes.xml for consistency and accessibility.
+    -->
+    <!--
+      HCI-informed palette:
+      - Calm, trustworthy blue primary (high contrast on white)
+      - Teal accent for secondary actions
+      - Neutral surfaces for readability and reduced cognitive load
+    -->
+    <!-- Blue-first palette (per spec) -->
+    <color name="wy_primary">#FF1D4ED8</color> <!-- Blue 700 -->
+    <!-- Primary variant used by MaterialComponents (e.g., status bar / darker shade) -->
+    <color name="wy_primary_variant">#FF1E40AF</color> <!-- Blue 800 -->
+    <color name="wy_on_primary">#FFFFFFFF</color>
+    <color name="wy_primary_container">#FFDBEAFE</color> <!-- Blue 100 -->
+    <color name="wy_on_primary_container">#FF1E3A8A</color>
+
+    <color name="wy_secondary">#FF0284C7</color> <!-- Sky 600 -->
+    <!-- Secondary variant used by MaterialComponents (darker accent) -->
+    <color name="wy_secondary_variant">#FF0369A1</color> <!-- Sky 700 -->
+    <color name="wy_on_secondary">#FFFFFFFF</color>
+    <color name="wy_secondary_container">#FFE0F2FE</color> <!-- Sky 100 -->
+    <color name="wy_on_secondary_container">#FF0C4A6E</color>
+
+    <color name="wy_background">#FFF6FAFF</color>
+    <color name="wy_on_background">#FF111827</color>
+
+    <color name="wy_surface">#FFFFFFFF</color>
+    <color name="wy_on_surface">#FF111827</color>
+
+    <color name="wy_outline">#FFCBD5E1</color> <!-- Slate 300 -->
+    <color name="wy_error">#FFB42318</color>
+    <color name="wy_on_error">#FFFFFFFF</color>
+
+    <color name="wy_text_muted">#FF64748B</color>
+
+    <!-- Material-inspired smooth palette (Dark) -->
+    <color name="wy_primary_dark">#FF93C5FD</color> <!-- Blue 300 -->
+    <color name="wy_primary_variant_dark">#FF60A5FA</color> <!-- Blue 400 -->
+    <color name="wy_on_primary_dark">#FF0B1B3A</color>
+    <color name="wy_primary_container_dark">#FF1E3A8A</color>
+    <color name="wy_on_primary_container_dark">#FFDBEAFE</color>
+
+    <color name="wy_secondary_dark">#FF7DD3FC</color> <!-- Sky 300 -->
+    <color name="wy_secondary_variant_dark">#FF38BDF8</color> <!-- Sky 400 -->
+    <color name="wy_on_secondary_dark">#FF082F49</color>
+    <color name="wy_secondary_container_dark">#FF0C4A6E</color>
+    <color name="wy_on_secondary_container_dark">#FFE0F2FE</color>
+
+    <color name="wy_background_dark">#FF0B1220</color>
+    <color name="wy_on_background_dark">#FFE5E7EB</color>
+
+    <color name="wy_surface_dark">#FF0F172A</color>
+    <color name="wy_on_surface_dark">#FFE5E7EB</color>
+
+    <color name="wy_outline_dark">#FF374151</color>
+    <color name="wy_error_dark">#FFFFB4AB</color>
+    <color name="wy_on_error_dark">#FF690005</color>
+
+    <color name="wy_text_muted_dark">#FF94A3B8</color>
+</resources>

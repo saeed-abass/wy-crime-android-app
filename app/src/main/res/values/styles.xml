@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Rounded, Material-styled buttons across the app -->
+    <style name="Widget.WYCrimeApp.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <!-- Keep button labels at a standard/average size across screens (including Map reset) -->
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Clean toolbar styling -->
+    <style name="Widget.WYCrimeApp.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.WYCrimeApp.ToolbarTitle</item>
+    </style>
+
+    <style name="TextAppearance.WYCrimeApp.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
